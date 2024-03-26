@@ -1,7 +1,8 @@
-import breakout from "./breakout.png";
+import words from "./words-letters-game .png";
 import furniture from "./furniture.png";
 import quiz from "./quiz.png";
 import tracalories from "./tracalories.png";
+import tds from "./tds-restaurant.png";
 import todolist from "./todolist.png";
 import profileOne from "./pictureF.jpg";
 import profileTwo from "./pictureG.jpg";
@@ -25,18 +26,6 @@ export const Projects = [
 
   {
     id: "1",
-    title: "Breakout Game",
-    img: breakout,
-    features: {
-      one: "Move Paddle Right And Left",
-      two: "Move Ball",
-      three: "Break Bricks",
-    },
-    bulbColor: "#664cd6",
-    linkLive: "https://github.com/BeinRain06/breakout-game.git",
-  },
-  {
-    id: "2",
     title: "Quiz App",
     img: quiz,
     features: {
@@ -46,6 +35,19 @@ export const Projects = [
     },
     bulbColor: "#d64c6a",
     linkLive: "https://github.com/BeinRain06/quiz-app.git",
+  },
+
+  {
+    id: "2",
+    title: "Words Letters Game",
+    img: words,
+    features: {
+      one: "switch between dark and light mode",
+      two: "Print and find matching Characters inside many row ",
+      three: "Update Level / Score",
+    },
+    bulbColor: "#664cd6",
+    linkLive: "https://words-letters-game.vercel.app",
   },
 
   {
@@ -72,5 +74,18 @@ export const Projects = [
     },
     bulbColor: "#fcff36",
     linkLive: "https://github.com/BeinRain06/To-Do-List.git",
+  },
+
+  {
+    id: "5",
+    title: "TDS - Restaurant",
+    img: tds,
+    features: {
+      one: "Order 0ne to 3 books once",
+      two: "display current day orders",
+      three: "Initialize order until payment",
+    },
+    bulbColor: "#9e158c",
+    linkLive: "https://github.com/BeinRain06/Tds_Restaurant_three",
   },
 ];
