@@ -4,11 +4,9 @@ import quiz from "./quiz.png";
 import tracalories from "./tracalories.png";
 import tds from "./tds-restaurant.png";
 import todolist from "./todolist.png";
-import profileOne from "./pictureF.jpg";
-import profileTwo from "./pictureG.jpg";
 import bubbleOne from "./bubble1.jpg";
 import bubbleTwo from "./bubble2.jpg";
-export { profileOne, profileTwo, bubbleOne, bubbleTwo };
+export { bubbleOne, bubbleTwo };
 
 export const Projects = [
   {
