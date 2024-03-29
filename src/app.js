@@ -1,10 +1,5 @@
 import moment from "moment";
-import {
-  Projects,
-  profileOne,
-  profileTwo,
-  bubbleOne,
-} from "./assets/images/index.js";
+import { Projects, bubbleOne } from "./assets/images/index.js";
 import { Quotes } from "./Quotes/Quotes.js";
 import IconGit from "../github.svg";
 import IconTwit from "../twitter.svg";
@@ -155,10 +150,8 @@ class App {
   _displayMobProfile() {
     const wrapper = document.querySelector(".picture_img_mobile");
 
-    const img = document.createElement("img");
+    const img = document.createElement("div");
     img.className = "rule_img_mob";
-
-    img.src = profileTwo;
 
     wrapper.appendChild(img);
   }
@@ -166,10 +159,8 @@ class App {
   _displayDeskProfile() {
     const wrapper = document.querySelector(".picture_img");
 
-    const img = document.createElement("img");
+    const img = document.createElement("div");
     img.className = "rule_img";
-
-    img.src = profileOne;
 
     wrapper.appendChild(img);
   }
